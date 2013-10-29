@@ -1,8 +1,8 @@
-#japanese-quiz is a super simple web app for improving Japanese vocabulary. 
+##japanese-quiz is a super simple web app for improving Japanese vocabulary. 
 
 It's very basic at the moment, but I'll be adding functionality over the next few months. 
 
-##A rather messy outline of the plans:
+###A rather messy outline of the plans:
 
 Space to display character, sentence, word etc
 Changes class based on what is being displayed
