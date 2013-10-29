@@ -1,0 +1,63 @@
+<!--space to display character, sentence, word etc
+Changes class based on what is being displayed
+
+KANJI LEARNING
+text boxes to input pronounciation(either roomaji or hiragana) and english meaning
+
+WORD LEARNING
+text box to input english meaning
+
+SENTENCE LEARNING
+text area to input english meaning
+
+HOW
+Library of kanji with meanings and pronounciation, words and meanings, setences with meanings
+Choose on the home page what combination of the above that you want
+Pull out of a db, display image
+
+When focus is in the pronounciation box, popup hiragana keyboard (use a map or something?)
+
+Check answers against stored ones
+If correct display a tick
+If incorrect, display the meaning/pronounciation
+
+If correct then put in limbo for 1 day, 3 days, 1 week, 3 weeks, 2 months (Put a counter on it, if it's not 0, then it's in limbo for however long the counter is, will reinsert itself when it is 0. Need separate counter for how many times it's been right)-->
+
+<!--TODO
+	- do the node tutorial
+	- find out about couchdb
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script>
+	function testing() {
+		var one = document.getElementById("one").value;
+		var two = document.getElementById("two").value;
+		if (one === two) {
+			document.getElementById("words").innerHTML =  "YAY! :D";
+		} else {
+			document.getElementById("words").innerHTML = "SADFACE D:";
+		}
+	}
+	</script>
+</head>
+
+<body>
+	<div id="main">
+		<div id="question">
+			<span id="content">左</span>
+		</div>
+		<div id="answer">
+			<label>Procounciation: </label>
+			<input type="text" id="one"></input>
+			<label>Meaning: </label>
+			<input type="text" id="two"></input>
+			<input type="button" value="SUBMIT" onClick="testing()"></input>
+			<span id="words"></span>
+		</div>
+	</div>
+</body>
+</html>
+
