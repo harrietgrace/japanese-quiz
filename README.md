@@ -1,8 +1,9 @@
-##japanese-quiz is a super simple web app for improving Japanese vocabulary. 
+##japanese-quiz is a work in progress web app for improving Japanese vocabulary. 
 
-It's very basic at the moment, but I'll be adding functionality over the next few months. 
+This app will eventually have similar functionality to the leaarning website memrise. It will be more basic, this is a personal project for learning purposes. 
+It's *very* basic at the moment, but I'll be adding functionality as I can. 
 
-###A rather messy outline of the plans:
+####A general outline of the plans:
 
 Space to display character, sentence, word etc
 Changes class based on what is being displayed
@@ -21,11 +22,11 @@ Library of kanji with meanings and pronounciation, words and meanings, setences 
 Choose on the home page what combination of the above that you want
 Pull out of a db, display image
 
-When focus is in the pronounciation box, popup hiragana keyboard (use a map or something?)
+When focus is in the pronounciation box, popup hiragana keyboard
 
 Check answers against stored ones
 If correct display a tick
 If incorrect, display the meaning/pronounciation
 
-If correct then put in limbo for 1 day, 3 days, 1 week, 3 weeks, 2 months (Put a counter on it, if it's not 0, then it's in limbo for however long the counter is, will reinsert itself when it is 0. Need separate counter for how many times it's been right)
+If correct then put in limbo for 1 day, 3 days, 1 week, 3 weeks, 2 months
 
